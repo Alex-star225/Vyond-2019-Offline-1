@@ -85,7 +85,7 @@ module.exports = function (req, res, url) {
 		case '/player': {
 			title = 'Video Player';
 			attrs = {
-				data: process.env.SWF_URL + '/player.swf',
+				data: process.env.SWF_URL + '/freetrialplayer.swf',
 				type: 'application/x-shockwave-flash', width: '100%', height: '100%',
 			};
 			params = {
